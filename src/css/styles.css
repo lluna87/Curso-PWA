@@ -1,0 +1,260 @@
+/* Estilos generales */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: roboto, verdana;
+  color: #757575;
+}
+
+body {
+  background-color: white;
+}
+
+.clearfix {
+  clear: both;
+  float:none;
+}
+
+.container {
+  width: 85%;
+  margin: 0px auto;
+}
+
+/* Cabecera */
+#main-header {
+  background: #303F9F;
+  height: 100px;
+  line-height: 100px;
+}
+
+#logo {
+  float: left;
+}
+
+#logo h1 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+#menu {
+  width: 400px;
+  float: right;
+}
+
+#menu ul li {
+  list-style: none;
+  float: left;
+  margin-left: 19px;
+  margin-right: 19px;
+}
+
+#menu ul li a {
+  color: #FFFFFF;
+}
+
+#menu ul li a:hover {
+  cursor: pointer;
+  color: #C5CAE9;
+}
+
+/* SLIDER */
+#slider {
+  height: 300px;
+  background-image: linear-gradient(#303F9F, #3F51B5, #3F51B5, #3F51B5);
+}
+
+#slider h2 {
+  font-size: 40px;
+  text-align: center;
+  line-height: 290px;
+  text-shadow: 0px 0px 6px black;
+  color: #FFFFFF;
+}
+
+
+/* SERVICIOS */
+.subheader {
+  font-size: 34px;
+  color: #212121;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #7C4DFF;
+}
+
+#slider h2.subheader {
+  line-height: 35px;
+
+  text-shadow: none;
+  font-size: 34px;
+}
+
+.service, .video {
+  width: 33%;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.service img {
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  margin-bottom: 10px;
+}
+
+.service p, .video p {
+  text-align: center;
+  display: block;
+  width: 85%;
+  margin: 0px auto;
+}
+
+/* VIDEOS */
+.video iframe {
+  width: 80%;
+  height: 170px;
+}
+
+/* FOOTER */
+#footer {
+    background: #333;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+#footer h2.subheader {
+color: #FFFFFF;
+}
+
+
+#networks {
+  display: block;
+  width: 220px;
+  margin: 0px auto;
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#networks li {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: all 300ms; /* Ralentiza los cambios que se produzcan sobre el elemento */
+}
+
+#networks li:hover {
+  opacity: 0.8;
+  transform: scale(1.1, 1.1);
+}
+
+/*
+
+MEDIA QUERY
+@media all and (min-width: 1000px) {
+
+  body {
+    background-color: black;
+  }
+
+}
+*/
+
+@media  (max-width: 1225px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media  (max-width: 1085px) {
+
+  #main-header {
+    height: 150px;
+    line-height: 65px;
+  }
+
+  #logo {
+      width: 60%;
+    }
+
+}
+
+@media  (max-width: 999px) {
+
+  #logo {
+      width: 227px;
+      float:none;
+      margin: 0 auto;
+  }
+
+  #menu {
+      float: none;
+      margin: 0 auto;
+  }
+
+  #slider {
+    height: 150px;
+  }
+
+  #slider h2 {
+    font-size: 30px;
+    line-height: 150px;
+  }
+
+}
+
+@media (max-width: 460px) {
+    #slider h2 {
+      font-size: 25px;
+      line-height: 130px;
+      margin-top: 10px;
+    }
+
+    #services {
+      text-align: center;
+    }
+
+    .service, .video{
+      clear: both;
+      float: none;
+      text-align: center;
+      margin: 0 auto;
+      width: 90%;
+    }
+
+    .video {
+      word-wrap: break-word;
+    }
+}
+
+@media (max-width: 377px){
+  #menu {
+    width: 100%;
+    text-align: center;
+  }
+  #menu ul li {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 345px){
+  #main-header {
+      height: auto;
+  }
+
+  #menu ul li {
+    float:none;
+  }
+}
