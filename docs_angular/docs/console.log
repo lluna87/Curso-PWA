@@ -1,0 +1,441 @@
+Copying skeleton files.
+These files are for the users to personalise their cygwin experience.
+
+They will never be overwritten nor automatically updated.
+
+'./.bashrc' -> '/home/Luis//.bashrc'
+'./.bash_profile' -> '/home/Luis//.bash_profile'
+'./.inputrc' -> '/home/Luis//.inputrc'
+'./.profile' -> '/home/Luis//.profile'
+
+Luis@LLUNA-ACER ~
+$ npm
+
+
+Luis@LLUNA-ACER ~
+$ ^C
+
+Luis@LLUNA-ACER ~
+$ npm cache clean --force
+npm WARN using --force I sure hope you know what you are doing.
+
+Luis@LLUNA-ACER ~
+$ cd D:/Desarrollo/PWAAngular
+-bash: cd: D:/Desarrollo/PWAAngular: No such file or directory
+
+Luis@LLUNA-ACER ~
+$ cd D:/Desarrollo
+-bash: cd: D:/Desarrollo: No such file or directory
+
+Luis@LLUNA-ACER ~
+$ cd F:\www_root\Otros
+-bash: cd: F:www_rootOtros: No such file or directory
+
+Luis@LLUNA-ACER ~
+$ cd F:\
+> cd F:\www_root\Otros
+-bash: cd: demasiados argumentos
+
+Luis@LLUNA-ACER ~
+$ cd F:cd F:\www_root\
+> cd F:cd F:\www_root\Otros
+-bash: cd: demasiados argumentos
+
+Luis@LLUNA-ACER ~
+$ cd F:\www_rootcd F:cd F:\www_root\Otros
+-bash: cd: demasiados argumentos
+
+Luis@LLUNA-ACER ~
+$ cd F:\www_root\Otros
+-bash: cd: F:www_rootOtros: No such file or directory
+
+Luis@LLUNA-ACER ~
+$ cd F:/www_root/Otros
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ ng new curso-pwa-angular
+-bash: ng: no se encontró la orden
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ ng new curso-pwa-angular
+-bash: ng: no se encontró la orden
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ ng
+-bash: ng: no se encontró la orden
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ install ng
+install: falta el fichero de destino después de 'ng'
+Pruebe 'install --help' para más información.
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ ng new curso-pwa-angular
+-bash: ng: no se encontró la orden
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ npm install node-js
+npm WARN saveError ENOENT: no such file or directory, open 'F:\www_root\Otros\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'F:\www_root\Otros\package.json'
+npm WARN Otros No description
+npm WARN Otros No repository field.
+npm WARN Otros No README data
+npm WARN Otros No license field.
+
++ node-js@1.0.0
+added 51 packages from 37 contributors and audited 127 packages in 65.245s
+found 0 vulnerabilities
+
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ npm install node
+
+> node@12.10.0 preinstall F:\www_root\Otros\node_modules\node
+> node installArchSpecificPackage
+
++ node-win-x64@12.10.0
+added 1 package in 60.4s
+found 0 vulnerabilities
+
+npm WARN saveError ENOENT: no such file or directory, open 'F:\www_root\Otros\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'F:\www_root\Otros\package.json'
+npm WARN Otros No description
+npm WARN Otros No repository field.
+npm WARN Otros No README data
+npm WARN Otros No license field.
+
++ node@12.10.0
+added 2 packages from 1 contributor and audited 415 packages in 70.198s
+found 0 vulnerabilities
+
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ npm uninstall -g angular-cli @angular/cli
+up to date in 0.065s
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ npm cache clean
+npm ERR! As of npm@5, the npm cache self-heals from corruption issues and data extracted from the cache is guaranteed to be valid. If you want to make sure everything is consistent, use 'npm cache verify' instead. On the other hand, if you're debugging an issue with the installer, you can use `npm install --cache /tmp/empty-cache` to use a temporary cache instead of nuking the actual one.
+npm ERR!
+npm ERR! If you're sure you want to delete the entire cache, rerun this command with --force.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Luis\AppData\Roaming\npm-cache\_logs\2019-09-16T01_51_41_390Z-debug.log
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ npm cache clean --force
+npm WARN using --force I sure hope you know what you are doing.
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ npm install -g @angular/cli
+
+
+
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ npm install -g @angular/cli --force
+npm WARN using --force I sure hope you know what you are doing.
+C:\Users\Luis\AppData\Roaming\npm\ng -> C:\Users\Luis\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng
+
+> @angular/cli@8.3.4 postinstall C:\Users\Luis\AppData\Roaming\npm\node_modules\@angular\cli
+> node ./bin/postinstall/script.js
+
++ @angular/cli@8.3.4
+added 243 packages from 185 contributors in 154.691s
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ ng new curso-pwa-angular
+CREATE curso-pwa-angular/angular.json (3681 bytes)
+CREATE curso-pwa-angular/package.json (1291 bytes)
+CREATE curso-pwa-angular/README.md (1032 bytes)
+CREATE curso-pwa-angular/tsconfig.json (543 bytes)
+CREATE curso-pwa-angular/tslint.json (1988 bytes)
+CREATE curso-pwa-angular/.editorconfig (246 bytes)
+CREATE curso-pwa-angular/.gitignore (631 bytes)
+CREATE curso-pwa-angular/browserslist (429 bytes)
+CREATE curso-pwa-angular/karma.conf.js (1029 bytes)
+CREATE curso-pwa-angular/tsconfig.app.json (270 bytes)
+CREATE curso-pwa-angular/tsconfig.spec.json (270 bytes)
+CREATE curso-pwa-angular/src/favicon.ico (948 bytes)
+CREATE curso-pwa-angular/src/index.html (301 bytes)
+CREATE curso-pwa-angular/src/main.ts (372 bytes)
+CREATE curso-pwa-angular/src/polyfills.ts (2838 bytes)
+CREATE curso-pwa-angular/src/styles.css (80 bytes)
+CREATE curso-pwa-angular/src/test.ts (642 bytes)
+CREATE curso-pwa-angular/src/assets/.gitkeep (0 bytes)
+CREATE curso-pwa-angular/src/environments/environment.prod.ts (51 bytes)
+CREATE curso-pwa-angular/src/environments/environment.ts (662 bytes)
+CREATE curso-pwa-angular/src/app/app.module.ts (314 bytes)
+CREATE curso-pwa-angular/src/app/app.component.html (25498 bytes)
+CREATE curso-pwa-angular/src/app/app.component.spec.ts (1014 bytes)
+CREATE curso-pwa-angular/src/app/app.component.ts (221 bytes)
+CREATE curso-pwa-angular/src/app/app.component.css (0 bytes)
+CREATE curso-pwa-angular/e2e/protractor.conf.js (810 bytes)
+CREATE curso-pwa-angular/e2e/tsconfig.json (214 bytes)
+CREATE curso-pwa-angular/e2e/src/app.e2e-spec.ts (650 bytes)
+CREATE curso-pwa-angular/e2e/src/app.po.ts (262 bytes)
+
+> core-js@2.6.9 postinstall F:\www_root\Otros\curso-pwa-angular\node_modules\babel-runtime\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+
+> core-js@3.2.1 postinstall F:\www_root\Otros\curso-pwa-angular\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+
+> core-js@2.6.9 postinstall F:\www_root\Otros\curso-pwa-angular\node_modules\karma\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+
+> @angular/cli@8.3.4 postinstall F:\www_root\Otros\curso-pwa-angular\node_modules\@angular\cli
+> node ./bin/postinstall/script.js
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\watchpack\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\karma\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\@angular\compiler-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.0.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.0.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1186 packages from 1051 contributors in 519.513s
+"git" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ ng server
+The specified command ("server") is invalid. For a list of available options,
+run "ng help".
+
+Did you mean "serve"?
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ ng serve
+The serve command requires to be run in an Angular project, but a project definition could not be found.
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ cd cursp-pwa-angular
+-bash: cd: cursp-pwa-angular: No such file or directory
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros
+$ cd curso-pwa-angular
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros/curso-pwa-angular
+$ ng serve
+i ｢wds｣: Project is running at http://localhost:4200/webpack-dev-server/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: 404s will fallback to //index.html
+
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros/curso-pwa-angular
+$ ng serve
+i ｢wds｣: Project is running at http://localhost:4200/webpack-dev-server/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: 404s will fallback to //index.html
+i ｢wdm｣: wait until bundle finished: /
+
+chunk {main} main.js, main.js.map (main) 47.8 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 264 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.71 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.81 MB [initial] [rendered]
+Date: 2019-09-16T02:11:33.057Z - Hash: b3372383a58446631513 - Time: 13512ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ｢wdm｣: Compiled successfully.
+
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros/curso-pwa-angular
+$ ng add @angular/pwa
+Installing packages for tooling via npm.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\watchpack\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\karma\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\@angular\compiler-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.0.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.0.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @angular/pwa@0.803.4
+added 5 packages from 2 contributors and audited 18904 packages in 31.963s
+found 0 vulnerabilities
+
+Installed packages for tooling via npm.
+CREATE ngsw-config.json (620 bytes)
+CREATE src/manifest.webmanifest (1091 bytes)
+CREATE src/assets/icons/icon-128x128.png (1253 bytes)
+CREATE src/assets/icons/icon-144x144.png (1394 bytes)
+CREATE src/assets/icons/icon-152x152.png (1427 bytes)
+CREATE src/assets/icons/icon-192x192.png (1790 bytes)
+CREATE src/assets/icons/icon-384x384.png (3557 bytes)
+CREATE src/assets/icons/icon-512x512.png (5008 bytes)
+CREATE src/assets/icons/icon-72x72.png (792 bytes)
+CREATE src/assets/icons/icon-96x96.png (958 bytes)
+UPDATE angular.json (3854 bytes)
+UPDATE package.json (1364 bytes)
+UPDATE src/app/app.module.ts (525 bytes)
+UPDATE src/index.html (483 bytes)
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\watchpack\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\karma\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\@angular\compiler-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.0.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.0.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1 package from 1 contributor and audited 18906 packages in 37.142s
+found 0 vulnerabilities
+
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros/curso-pwa-angular
+$ ng serve
+i ｢wds｣: Project is running at http://localhost:4200/webpack-dev-server/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: 404s will fallback to //index.html
+
+chunk {main} main.js, main.js.map (main) 48.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 264 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.71 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.84 MB [initial] [rendered]
+Date: 2019-09-16T02:15:58.615Z - Hash: 7ab43044b6602ab85682 - Time: 12792ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ｢wdm｣: Compiled successfully.
+
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros/curso-pwa-angular
+$ ng serve
+i ｢wds｣: Project is running at http://localhost:4200/webpack-dev-server/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: 404s will fallback to //index.html
+
+chunk {main} main.js, main.js.map (main) 48.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 264 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.71 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.84 MB [initial] [rendered]
+Date: 2019-09-16T02:16:23.126Z - Hash: 7ab43044b6602ab85682 - Time: 12832ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+i ｢wdm｣: Compiled successfully.
+
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros/curso-pwa-angular
+$ npm install lite-server --safe-dev
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\watchpack\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\karma\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\browser-sync\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\@angular\compiler-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.0.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.0.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ lite-server@2.5.4
+added 105 packages from 137 contributors in 109.274s
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros/curso-pwa-angular
+$ npm start:prod
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\Luis\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.9.0 C:\Program Files\nodejs\node_modules\npm
+
+Did you mean this?
+    start
+
+Luis@LLUNA-ACER /cygdrive/f/www_root/Otros/curso-pwa-angular
+$ npm run start:prod
+
+> curso-pwa-angular@0.0.0 start:prod F:\www_root\Otros\curso-pwa-angular
+> ng build --prod && lite-server --baseDir dist/curso-pwa-angular
+
+
+chunk {0} runtime-es2015.85f895af57b038f1e5b4.js (runtime) 2.82 kB [entry] [rendered]
+chunk {1} main-es2015.98e62c704eac4ab55074.js (main) 271 kB [initial] [rendered]
+chunk {2} polyfills-es2015.0fe6949bc5ff4b784062.js (polyfills) 64 kB [initial] [rendered]
+chunk {3} polyfills-es5-es2015.a83ac866abc867bfd530.js (polyfills-es5) 222 kB [initial] [rendered]
+chunk {4} styles.3ff695c00d717f2d2a11.css (styles) 0 bytes [initial] [rendered]
+Date: 2019-09-16T02:22:00.638Z - Hash: 4fdc69aed02df1e73569 - Time: 37879ms
+Generating ES5 bundles for differential loading...
+ES5 bundle generation complete.
+Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+** browser-sync config **
+{ injectChanges: false,
+  files: [ './**/*.{html,htm,css,js}' ],
+  watchOptions: { ignored: 'node_modules' },
+  server:
+   { baseDir: 'dist/curso-pwa-angular',
+     middleware: [ [Function], [Function] ] } }
+[Browsersync] Access URLs:
+ --------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.0.101:3000
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ --------------------------------------
+[Browsersync] Serving files from: dist/curso-pwa-angular
+[Browsersync] Watching files...
+19.09.15 23:22:18 200 GET /index.html
+19.09.15 23:22:18 200 GET /styles.3ff695c00d717f2d2a11.css
+19.09.15 23:22:18 200 GET /polyfills-es2015.0fe6949bc5ff4b784062.js
+19.09.15 23:22:18 200 GET /runtime-es2015.85f895af57b038f1e5b4.js
+19.09.15 23:22:18 200 GET /main-es2015.98e62c704eac4ab55074.js
+19.09.15 23:22:19 200 GET /manifest.webmanifest
+19.09.15 23:22:19 200 GET /ngsw-worker.js
+19.09.15 23:22:19 200 GET /favicon.ico
+19.09.15 23:22:19 200 GET /assets/icons/icon-144x144.png
+19.09.15 23:22:19 200 GET /ngsw.json
+19.09.15 23:22:19 304 GET /favicon.ico
+19.09.15 23:22:19 200 GET /index.html
+19.09.15 23:22:19 304 GET /main-es2015.98e62c704eac4ab55074.js
+19.09.15 23:22:19 200 GET /main-es5.98e62c704eac4ab55074.js
+19.09.15 23:22:19 304 GET /manifest.webmanifest
+19.09.15 23:22:19 304 GET /polyfills-es2015.0fe6949bc5ff4b784062.js
+19.09.15 23:22:19 200 GET /polyfills-es5.a83ac866abc867bfd530.js
+19.09.15 23:22:19 304 GET /runtime-es2015.85f895af57b038f1e5b4.js
+19.09.15 23:22:19 200 GET /runtime-es5.85f895af57b038f1e5b4.js
+19.09.15 23:22:19 304 GET /styles.3ff695c00d717f2d2a11.css
+
